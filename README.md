@@ -43,7 +43,7 @@
 
   ## GitHub
 
-  tierney03
+  tierney03(https://github.com/tierney03)
 
   ## Email
 
