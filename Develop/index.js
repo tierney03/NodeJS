@@ -36,10 +36,10 @@ const questions = [
         message: 'What are the test instructions?',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Choose a license.',
-        choices: ['Apache 2.0', 'MIT', 'ISC', 'none']
+        choices: ['Apache 2.0', 'MIT', 'ISC', 'Unlicense', 'none']
     },
     {
         type: 'input',
@@ -53,11 +53,16 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Running 
+inquirer
+  .prompt (questions)
+  .then(function(data){
+    const queryURL = `https://api.github.com/users/${data.questions}`;
 
-// TODO: Create a function to initialize app
-function init() {}
 
-// Function call to initialize app
-init();
+    fs.writeFile("README.md", generateMarkdown(data), (err) =>
+    err ? console.error(err) : console.log("README.md has been created!")
+
+  );
+
+});
