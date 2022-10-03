@@ -1,9 +1,9 @@
 
-  # **ReadMe Generator**
+  # **README Generator**
   
   Badge is linked to additional information for license.
   
-  undefined
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Table of Contents
   
@@ -25,24 +25,24 @@
 
 
   ## Description
-    This will utilize user input to create a README.md from within terminal in node.js
+    This project will allow user input to create a quality README.md
 
   ## Usage
-  You will use it within integrated terminal
+  Initialize through integrated terminal
 
   ## Install
-  Use inquirer as an npm package.
+  You utilize Inquirer as the npm package
   
   ## Contribution
-  Follow up with the author prior to contributing.
+  Please contact me to contribute
 
   ## Testing
-  No Tests
+  No test instructions
 
   ## License
 
   Click on the badge at the top of the README.md to be directed to additional information about that license.
-  undefined
+  MIT
 
   ## GitHub
 
