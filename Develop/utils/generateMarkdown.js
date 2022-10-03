@@ -67,7 +67,7 @@ const generateMarkdown = (data) => {
 
   ## GitHub
 
-  ${data.github}
+  [${data.github}](https://github.com/${data.github})
 
   ## Email
 

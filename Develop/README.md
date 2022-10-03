@@ -1,5 +1,5 @@
 
-  # **README Generator**
+  # **Readme Generator**
   
   Badge is linked to additional information for license.
   
@@ -25,19 +25,19 @@
 
 
   ## Description
-    This project will allow user input to create a quality README.md
+    This will utilize user prompted input to create a quality readme.
 
   ## Usage
-  Initialize through integrated terminal
+  Through the integrated terminal.
 
   ## Install
-  You utilize Inquirer as the npm package
+  Utilizing inquirer npm package
   
   ## Contribution
-  Please contact me to contribute
+  Please contact me regarding contributions
 
   ## Testing
-  No test instructions
+  no test instructions
 
   ## License
 
@@ -46,7 +46,7 @@
 
   ## GitHub
 
-  tierney03
+  @tierney03
 
   ## Email
 
